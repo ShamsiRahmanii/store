@@ -1,0 +1,77 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+
+.container {
+  border-top: 15px solid rgba(255, 0, 0, 0.24);
+  border-right: 15px solid rgba(255, 0, 0, 0.24);
+  border-left: 15px solid rgba(255, 0, 0, 0.24);
+}
+.register {
+    margin: 14rem auto;
+    border: 1px solid rgb(159, 156, 156);
+    border-radius: 5px;
+    width: 25rem;
+    height: auto;
+    padding: 2rem;
+}
+.register h1 {
+    color: red;
+    font-size: 3rem;
+    padding-left: 7rem;
+    margin-top: -1rem;
+    margin-bottom: 1rem;
+}
+.pTree {
+    font-size: 1.4rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    font-weight: 600;
+    margin-left: 0.5rem;
+}
+.pTwo , .pOne {
+    margin-bottom: 1rem;
+    margin-left: 0.5rem;
+}
+.register input {
+   width: 20rem;
+   height: 2.5rem;
+   border-radius: 5px;
+   outline: none;
+   border: 1px solid red;
+   margin-bottom: 0.8rem;
+   margin-left: 0.5rem;
+}
+.register h6 {
+    color: red;
+    font-size: 0.8rem;
+    margin-left: 0.5rem;
+}
+.register button {
+    width: 20rem;
+    background-color: rgb(220, 51, 51);
+    border: none;
+    cursor: pointer;
+    color: #ffff;
+    text-align: center;
+    border-radius: 5px;
+    height: 2.5rem;
+    margin-left: 0.5rem;
+    font-weight: 600;
+}
+
+/* responsive */
+
+@media only screen and (max-width: 576px) {
+    html , body {
+        width: 100%;
+        overflow-x: hidden !important;
+    }
+    .container {
+        border: none;
+    }
+    .register {
+        margin-top: 5rem;
+    }
+}
